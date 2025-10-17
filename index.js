@@ -1,4 +1,4 @@
-let nomeheroi = "pombagira"
+let nomeheroi = "guizinho matador de porco"
 let XP = 1
 let elo = ""
 
