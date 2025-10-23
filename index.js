@@ -1,0 +1,21 @@
+salarioBruto = 750
+adicionais = 100
+let salarioReal = 1
+
+switch(true){
+    case salarioBruto >= 0 && salarioBruto <= 1100:
+        salarioReal = salarioBruto * 0.05
+    break
+
+    case salarioBruto > 1100 && salarioBruto <= 2500:
+        salarioReal = salarioBruto * 0.10
+    break
+
+    case salarioBruto > 2500:
+        salarioReal = salarioBruto * 0.15
+    break
+
+    return salarioReal
+}
+
+console.log(`seu salário é de R$${salarioBruto - salarioReal + adicionais}`) 
