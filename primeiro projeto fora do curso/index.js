@@ -15,8 +15,6 @@ switch(true){
     case salarioBruto > 2500:
         salarioReal = salarioBruto * 0.15
     break
-
-    return salarioReal
 }
 
 console.log(`seu salário é de R$${salarioBruto - salarioReal + adicionais}`) 
